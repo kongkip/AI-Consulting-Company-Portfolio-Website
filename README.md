@@ -20,11 +20,11 @@ To set up this project on your local machine, follow these steps:
 
 1. Clone this repository to your local machine.
    ```
-   git clone [repository-url]
+   git clone https://github.com/kongkip/AI-Consulting-Company-Portfolio-Website.git
    ```
 2. Navigate to the project directory.
    ```
-   cd [project-directory]
+   cd AI-Consulting-Company-Portfolio-Website
    ```
 3. Open the `index.html` file in a web browser to view the website.
 
