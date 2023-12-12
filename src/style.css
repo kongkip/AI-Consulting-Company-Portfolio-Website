@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Style for section headings */
+section h2 {
+    text-align: center; /* Center-aligns the heading */
+    margin-top: 20px; /* Adds some space at the top */
+}
+
+
+.service-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33% - 20px); /* Adjust width as per requirement */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: all 0.3s ease; /* Transition for smooth effect */
+}
+
+.service:hover {
+    transform: scale(1.05); /* Slightly increase the size */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* Enhance shadow */
+}
+
+.service h3 {
+    margin-top: 0;
+}
+
+/* You can add media queries for responsive design */
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
